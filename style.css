@@ -1,0 +1,35 @@
+#title {
+background-color: blanchedalmond;
+}
+
+#color-palette {
+display: inline-block;
+}
+
+.color {
+width: 60px;
+height: 60px;
+display:inline-block;
+border: black solid 1px;
+}
+
+.um {
+background-color: rgb(0, 0, 0);
+}
+
+.dois {   
+background-color: rgb(10, 62, 139);    
+}
+
+.tres {
+background-color: rgb(40, 150, 82);
+}
+
+.quatro {
+background-color: rgb(211, 149, 226);
+}
+
+.pixel {
+width: 25px;
+height: 25px;
+}
