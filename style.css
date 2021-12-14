@@ -2,8 +2,6 @@
 background-color: blanchedalmond;
 }
 
-
-
 .color {
     width: 60px;
     height: 60px;
@@ -36,7 +34,7 @@ background-color: blanchedalmond;
   #pixel-board {
     display: grid;
     grid-gap: 0em;
-    grid-template-rows: repeat(var(--grid-rows), 0fr);
+    grid-template-rows: repeat(var(--grid-rows), 5fr);
     grid-template-columns: repeat(var(--grid-cols), 0fr);
   }
   
@@ -45,6 +43,19 @@ background-color: blanchedalmond;
     height: 40px;
     border: black solid 1px;
     display: inline-grid;
-   
-    
+          
+  }
+
+  .clear-board {
+    width: 60px;
+    height: 60px;
+    border: rgb(32, 158, 116) solid 1px;
+  }
+
+  .white {
+    background-color: rgb(255, 255, 255);
+  }
+
+  .selected {
+    text-align: center;
   }
